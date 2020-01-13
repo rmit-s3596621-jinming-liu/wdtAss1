@@ -17,9 +17,9 @@ namespace Ass1
             var house = new Building();
 
 
-            Console.WriteLine("Hello ConsoleApp!");
+            Console.WriteLine("Hello ConsoleApp! for WDT");
         }
 
     }
     }
-}
+
