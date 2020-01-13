@@ -18,7 +18,7 @@ namespace Ass1
 
 
             Console.WriteLine("Hello ConsoleApp!");
-            Console.Write("first line");
+            Console.Write("first");
         }
 
     }
