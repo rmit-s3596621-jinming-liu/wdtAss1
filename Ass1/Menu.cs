@@ -119,7 +119,7 @@ namespace Ass1
                         DataWarehouse.getInstance().CreateTable();
                         DataWarehouse.getInstance().InsertCustomerData();
                         DataWarehouse.getInstance().InsertAccountData();
-                        DataWarehouse.getInstance().InsertTransactionData();
+                      //  DataWarehouse.getInstance().InsertTransactionData();
                         DataWarehouse.getInstance().InsertLoginData();
                         Environment.Exit(0);
                         break;
@@ -137,6 +137,7 @@ namespace Ass1
         {
             NWBA_System.customer = null;
             this.userloggedin = false;
+            Console.Clear();
             this.MainMenu();
         }
 
